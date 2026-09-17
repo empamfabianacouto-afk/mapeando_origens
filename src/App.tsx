@@ -109,6 +109,8 @@ export default function App() {
     exitFullScreen();
     setFinalScore(null);
     setShowGame(false);
+    setStudentInfo({ name: '', class: '' });
+    setSelectedCharacter(null);
   };
 
   return (
