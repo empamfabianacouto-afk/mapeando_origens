@@ -1,0 +1,6 @@
+{
+  "name": "Mapeando Origens",
+  "description": "Um jogo interativo para explorar a origem de palavras de línguas indígenas e africanas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

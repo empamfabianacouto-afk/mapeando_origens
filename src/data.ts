@@ -1,0 +1,85 @@
+export interface WordEntry {
+  word: string;
+  origin: 'Indígena' | 'Africana';
+  meaning: string;
+}
+
+export const wordList: WordEntry[] = [
+  // ==========================================
+  // LIVRO: O TUPI QUE VOCÊ FALA (Raízes Indígenas)
+  // ==========================================
+  { word: "Guri", origin: "Indígena", meaning: "Menino ou criança pequena" },
+  { word: "Jabuticaba", origin: "Indígena", meaning: "Fruta brasileira escura de casca roxa e polpa doce" },
+  { word: "Jabuti", origin: "Indígena", meaning: "Tartaruga terrestre típica da fauna brasileira" },
+  { word: "Sagui", origin: "Indígena", meaning: "Pequeno macaco ágil das florestas brasileiras" },
+  { word: "Tamanduá", origin: "Indígena", meaning: "Mamífero que se alimenta de formigas e cupins com sua língua comprida" },
+  { word: "Siri", origin: "Indígena", meaning: "Crustáceo marinho com patas traseiras adaptadas para nadar" },
+  { word: "Samambaia", origin: "Indígena", meaning: "Planta verde ornamental de folhas finas e rendadas" },
+  { word: "Paçoca", origin: "Indígena", meaning: "Alimento tradicional feito com amendoim moído ou carne pilada" },
+  { word: "Perereca", origin: "Indígena", meaning: "Pequeno anfíbio saltador que possui ventosas nas pontas dos dedos" },
+  { word: "Pororoca", origin: "Indígena", meaning: "Fenômeno do estrondoso encontro das águas do rio com as do mar" },
+  { word: "Pipoca", origin: "Indígena", meaning: "Grão de milho que se expande e estoura quando aquecido" },
+  { word: "Sucuri", origin: "Indígena", meaning: "Grande serpente aquática não venenosa das matas e rios brasileiros" },
+  { word: "Jacaré", origin: "Indígena", meaning: "Réptil aquático carnívoro de couro rígido e dentes pontiagudos" },
+  { word: "Capivara", origin: "Indígena", meaning: "Maior roedor do planeta, muito comum na beira de rios e lagos" },
+  { word: "Arara", origin: "Indígena", meaning: "Ave de grande porte com bico curvo e plumagem muito colorida" },
+  { word: "Urubu", origin: "Indígena", meaning: "Ave de rapina que ajuda na limpeza da natureza alimentando-se de carcaças" },
+  { word: "Tucano", origin: "Indígena", meaning: "Ave tropical conhecida por seu enorme e chamativo bico colorido" },
+  { word: "Sabiá", origin: "Indígena", meaning: "Ave canora muito popular e símbolo da fauna brasileira" },
+  { word: "Piranha", origin: "Indígena", meaning: "Peixe carnívoro de água doce com mandíbula forte e dentes cortantes" },
+  { word: "Taturana", origin: "Indígena", meaning: "Lagarta com pelos urticantes que provocam queimação intensa na pele" },
+  { word: "Boboca", origin: "Indígena", meaning: "Pessoa ingênua, boba ou que se deixa enganar facilmente" },
+  { word: "Amendoim", origin: "Indígena", meaning: "Planta cujas vagens com sementes comestíveis amadurecem debaixo da terra" },
+  { word: "Paca", origin: "Indígena", meaning: "Roedor silvestre de hábitos noturnos com listras de pintas brancas" },
+  { word: "Tatu", origin: "Indígena", meaning: "Mamífero brasileiro protegido por uma carapaça rígida e articulada" },
+  { word: "Caju", origin: "Indígena", meaning: "Pseudofruto suculento e aromático que sustenta uma castanha na extremidade" },
+  { word: "Guaraná", origin: "Indígena", meaning: "Fruto da Amazônia cujo aspecto lembra um olho e que fornece energia" },
+  { word: "Pitanga", origin: "Indígena", meaning: "Fruta pequena, vermelha e gomada, nativa da Mata Atlântica" },
+  { word: "Maracujá", origin: "Indígena", meaning: "Fruta com polpa aromática e sementes pretas conhecida por seu efeito calmante" },
+  { word: "Abacaxi", origin: "Indígena", meaning: "Fruta tropical muito aromática de casca áspera e coroa de folhas" },
+  { word: "Taquara", origin: "Indígena", meaning: "Espécie de bambu nativo oco, leve e resistente" },
+  { word: "Peteca", origin: "Indígena", meaning: "Brinquedo de base acolchoada com penas que se rebate com as palmas das mãos" },
+  { word: "Saci", origin: "Indígena", meaning: "Personagem travesso do folclore que pula em uma perna só e fuma cachimbo" },
+  { word: "Curumim", origin: "Indígena", meaning: "Criança ou menino pequeno nas aldeias e comunidades indígenas" },
+
+  // ==========================================
+  // LIVRO: A ÁFRICA QUE VOCÊ FALA (Raízes Africanas)
+  // ==========================================
+  { word: "Dengo", origin: "Africana", meaning: "Manha afetuosa, carinho ou pedido meigo de atenção e mimo" },
+  { word: "Ginga", origin: "Africana", meaning: "Movimento corporal ágil, sinuoso e ritmado, comum na capoeira e dança" },
+  { word: "Xinxim", origin: "Africana", meaning: "Prato tradicional baiano feito com frango, castanhas e azeite de dendê" },
+  { word: "Farofa", origin: "Africana", meaning: "Prato saboroso de farinha de mandioca passada em gordura temperada" },
+  { word: "Fubá", origin: "Africana", meaning: "Farinha fina obtida pela moagem de grãos de milho seco" },
+  { word: "Banana", origin: "Africana", meaning: "Fruta tropical amarela e alongada de polpa macia e sabor adocicado" },
+  { word: "Fuzuê", origin: "Africana", meaning: "Confusão festiva, grande agitação alegre e barulhenta" },
+  { word: "Quizumba", origin: "Africana", meaning: "Discussão acalorada, briga ou confusão embaraçosa" },
+  { word: "Gandaia", origin: "Africana", meaning: "Festa animada, diversão sem preocupações ou folia" },
+  { word: "Bagunça", origin: "Africana", meaning: "Desordem descontraída, falta de arrumação ou brincadeira agitada" },
+  { word: "Zoeira", origin: "Africana", meaning: "Brincadeira barulhenta, piada entre amigos ou algazarra" },
+  { word: "Fuá", origin: "Africana", meaning: "Burburinho animado, agitação festiva ou pequeno tumulto alegre" },
+  { word: "Bafafá", origin: "Africana", meaning: "Tumulto ruidoso, confusão com discussão ou bate-boca" },
+  { word: "Canga", origin: "Africana", meaning: "Tecido estampado e colorido usado para deitar na areia ou como vestimenta" },
+  { word: "Miçanga", origin: "Africana", meaning: "Pequena conta perfurada de vidro ou plástico usada em colares e pulseiras" },
+  { word: "Cochilo", origin: "Africana", meaning: "Sono leve, breve e reparador durante o dia" },
+  { word: "Banzo", origin: "Africana", meaning: "Sentimento profundo de melancolia, saudade e tristeza da terra de origem" },
+  { word: "Xodó", origin: "Africana", meaning: "Sentimento de apego muito afetuoso, carinho ou pessoa muito querida" },
+  { word: "Cafuné", origin: "Africana", meaning: "Ato de acariciar suavemente a cabeça de alguém para relaxar ou adormecer" },
+  { word: "Marimbondo", origin: "Africana", meaning: "Espécie de vespa que ferroa com intensidade quando se sente ameaçada" },
+  { word: "Camundongo", origin: "Africana", meaning: "Pequeno roedor doméstico de cauda fina e orelhas arredondadas" },
+  { word: "Moleque", origin: "Africana", meaning: "Menino travesso, esperto, ativo e brincalhão" },
+  { word: "Muvuca", origin: "Africana", meaning: "Aglomeração ruidosa, animada e apertada de muitas pessoas reunidas" },
+  { word: "Cuca", origin: "Africana", meaning: "Personagem lendária que vigia crianças acordadas / também gíria para cabeça" },
+  { word: "Bunda", origin: "Africana", meaning: "Região dos glúteos ou nádegas (termo originário do quimbundo)" },
+  { word: "Garapa", origin: "Africana", meaning: "Caldo doce extraído da moagem da cana-de-açúcar fresca" },
+  { word: "Arabá", origin: "Africana", meaning: "Árvore sagrada de grande porte (gameleira branca) reverenciada no candomblé" },
+  { word: "Canjica", origin: "Africana", meaning: "Doce cremoso feito com grãos de milho branco cozidos com leite e coco" },
+  { word: "Mocotó", origin: "Africana", meaning: "Ensopado nutritivo preparado com o cozimento lento das patas do boi" },
+  { word: "Acarajé", origin: "Africana", meaning: "Bolinho de feijão-fradinho frito no azeite de dendê servido com vatapá e camarão" },
+  { word: "Quindim", origin: "Africana", meaning: "Doce dourado e brilhante feito à base de gemas de ovos, açúcar e coco ralado" },
+  { word: "Moqueca", origin: "Africana", meaning: "Cozido perfumado de peixe ou frutos do mar feito em panela de barro com temperos" },
+  { word: "Vatapá", origin: "Africana", meaning: "Creme aromático à base de peixe ou camarão, pão ralado, castanhas e azeite de dendê" },
+  { word: "Dendê", origin: "Africana", meaning: "Azeite avermelhado e encorpado extraído dos frutos da palmeira dendezeiro" },
+  { word: "Quiabo", origin: "Africana", meaning: "Legume verde alongado com pequenas sementes viscosas usado em pratos típicos" },
+  { word: "Samba", origin: "Africana", meaning: "Gênero musical e dança ritmada que é um dos maiores símbolos culturais do Brasil" },
+  { word: "Quitanda", origin: "Africana", meaning: "Pequeno comércio ou tenda de bairro onde se compram frutas, legumes e verduras" }
+];
